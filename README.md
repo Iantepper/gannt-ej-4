@@ -33,16 +33,17 @@ Reducir el tiempo en la tarea "Escribir casos de uso (E)" no sería útil para r
 ```mermaid
 flowchart TD
     %% Tareas y dependencias
-    A[Entrevistar ejecutivos (6 sem)] --> D[Diseñar prototipo de salida (3 sem)]
-    A --> E[Escribir casos de uso (4 sem)]
-    B[Entrevistar en abastecimiento (3 sem)] --> C[Diseñar prototipo de entrada (2 sem)]
+    A[Entrevistar ejecutivos] --> D[Diseñar prototipo de salida]
+    A --> E[Escribir casos de uso]
+    B[Entrevistar en abastecimiento] --> C[Diseñar prototipo de entrada]
     C --> D
     C --> E
-    D --> F[Registrar reacciones del personal (2 sem)]
-    E --> G[Desarrollar el sistema (5 sem)]
+    D --> F[Registrar reacciones]
+    E --> G[Desarrollar el sistema]
     F --> G
-    B --> H[Escribir manual de capacitación (3 sem)]
+    B --> H[Escribir manual de capacitación]
     G --> H
-    H --> I[Capacitar personal en abastecimiento (2 sem)]
+    H --> I[Capacitar personal]
+
 
 
